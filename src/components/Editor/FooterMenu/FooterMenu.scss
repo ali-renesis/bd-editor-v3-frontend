@@ -1,0 +1,47 @@
+.AtFooterMenu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.AtFooterContainer {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 4rem;
+}
+
+.AtFooterTools { 
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  .AtPercent,.AtToolBtn {
+    color: #85929d;
+    &:hover {
+      color: #000;
+    }
+  }
+  .AtBlueBtn{
+    min-width: 9rem;
+  }
+  .AtLine{
+    border-left: 1px solid #DFE0E2;
+    padding-left: 1.25rem;
+  }
+}
+
+.AtFooterPrice{
+  display: flex;
+  align-items: center;
+  h3{
+    color: #026FC2;
+  }
+}
+
+.AtRangeSlider{
+  margin-bottom:8px;
+}
+

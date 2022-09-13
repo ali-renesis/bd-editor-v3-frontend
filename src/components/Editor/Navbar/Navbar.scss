@@ -1,0 +1,101 @@
+.navbar {
+  // background: linear-gradient(90deg, #00c4cc, #7d2ae8);
+  // background: #026FC2;
+  background: rgb(74,167,237);
+background: linear-gradient(130deg, rgba(74,167,237,1) 0%, rgba(1,86,151,1) 100%);
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.36rem;
+}
+
+.navbar-left {
+  color: #fff;
+  display: flex;
+  svg {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.navbar-action-items {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  border-radius: 4px;
+  padding: 0.5rem;
+  background: rgba($color: #fff, $alpha: 0.15);
+  margin-left: 1rem;
+  cursor: pointer;
+  &:hover{
+  background: rgba($color: #fff, $alpha: 0.25);
+  }
+}
+
+.AttoolIcon{
+  font-size: 20px;
+  margin-right: 15px;
+  &.icon-aligncenter{
+  font-size: 24px;
+  }
+}
+
+.AtPosBtns{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 8px;
+}
+
+.AtPosBtn{
+  color: #000;
+  width: 50%;
+  padding: 8px 0 ;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  i{
+  font-size: 24px;
+  margin-right: 5px;
+  }
+  &:hover{
+    background-color: #F2F3F5;
+  }
+}
+
+.AtLayerPosition{
+  position: relative;
+  .chakra-popover__popper{
+    right: 0;
+  }
+  &.AtLayerPositionAlign{
+    .chakra-popover__content{
+      width: 200px;
+    }
+    .AtPosBtn{
+      width: (calc(100% / 3));
+    }
+  }
+  &.AtLayerPositionText{
+    .chakra-popover__popper{
+      left: 0;
+      right: inherit;
+    }
+    .chakra-popover__content{
+      width: 200px;
+    }
+    .AtPosBtns{
+      flex-wrap: nowrap;
+    }
+    .AtPosBtn{
+      width: 100%;
+    }
+  }
+
+
+}

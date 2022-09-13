@@ -7,7 +7,7 @@ import './TextToolbox.scss'
 import { useCoreHandler } from '@/components/Canvas/handlers'
 import { FONT_SIZES } from '@/utils/constant'
 import Button from '@/components/common/button/Button'
-
+ 
 const fontsList = ['Open Sans', 'Lexend', 'Comic Neue', 'Patrick Hand', 'Allison', 'Abril Fatface', 'Arial Th', 'Arial MT', 'Arima Bold', 'Arima Regular', 'Arima Semi Bold', 'Arima Light', 'Arima Extra Light', 'Arima Thin', 'Arima Medium', 'Arial GEO Bold', 'Arial Narrow', 'Arial GEO Italic', 'Aboreto', 'Arima', 'Geo_Arial', 'Ballet', 'Ballet Smaller', 'Ballet Small', 'Ballet Medium', 'Ballet Large', 'Bebas Neue', 'Bowlby One', 'Brand Light Pro', 'BLACKHAWK', 'BLACKHAWK Swash', 'BLACKHAWK Italic', 'Brand Inline Pro', 'Brande Shade Solo Pro', 'Butler Stencil Light', 'Brand Pro', 'Butler Stencil', 'Butler Stencil Two', 'Butler Stencil Black', 'Butler Stencil Bold', 'Butler Stencil Three', 'Butler Stencil Extra Bold', 'Brand Shade Pro', 'Butler Stencil Utra Light',
  'Butler Stencil Medium',
  'Cinzel Bold',
